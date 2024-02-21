@@ -44,4 +44,27 @@ The dataset consists of 350 data points within the period of 2015-2021. Below is
 - Interpolation of missing high school-educated youth values for 2020 as the mean of 2021 and 2019
 
 
+<img src="Images/1.png" width="500"> <img src="Images/2.png" width="500">
+
+
+## Results and Conclusions
+- Achieved R^2 score of 0.76 on Multiple Linear Regression Model after Forward Stepwise Regression
+- Performed Goodness of Fit Analysis and Outlier Detection using Cook's Distance
+- State Type, Year, registered firearms, Unemployment Rates, Mental Health Issues, Median Age, and high school education are all significant estimators for gun violence-related deaths in America
+- While mental health has a negative coefficient in our final model, we find that it is a very small coefficient and does not indicate causality in the case of our study
+- When yearly data is analyzed mental health is not a significant estimator.Consistent with the initial study
+- Poisson estimators are not a good metric to estimate gun violence-related deaths based on the independent variables we have chosen in this study.
+
+## Future Scope
+- New data points and variables to improve variability in the deaths due to gun violence incidents
+- Further analysis of outliers, including variable ranges
+- Finding a better estimator than Poisson to predict the death rates
+- Testing of predictive power using train test split
+- Understanding why Mental Health is consistently coming out to be insignificant in these studies
+
+
+
+
+
+
 
